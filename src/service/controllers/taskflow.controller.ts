@@ -10,7 +10,7 @@ class TASKFLOW {
   async executeProcess(inputVideoSources: string[]) {
     try {
         // Prefijo del path de la ubicación de los videos
-        const pathPrefix = 'C:\\Users\\Ingre\\OneDrive\\Escritorio\\Krowdy-Academy\\bootcamp-mayo-backend\\';
+        const pathPrefix = __dirname;
         // Nombre del archivo de salida de la unión del 1 y 4 video
         const outputVideoSrc1 = `${inputVideoSources[0]}-${inputVideoSources[3]}.webm`;
         // Nombre del archivo de salida de la unión del 2 y video
